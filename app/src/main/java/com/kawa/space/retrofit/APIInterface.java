@@ -9,5 +9,5 @@ import retrofit2.http.Query;
 
 public interface APIInterface {
     @GET("?inc=gender,name,nat,location,picture,email")
-    Call<ApiResponse> doGetUserList(@Query("results") Integer results);
+    Call<ApiResponse> doGetUserList(@Query("results") Integer itemCount);
 }

@@ -80,10 +80,7 @@ public class MainFragment extends Fragment implements RecyclerViewAdapter.onCall
             tab++;
             mBinding.viewpager.setCurrentItem(tab, true);
         });
-
         listenToViewModel();
-        mViewModel.onGetListResources();
-
     }
 
     private void listenToViewModel() {

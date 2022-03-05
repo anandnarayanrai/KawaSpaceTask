@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Kawa Space Task (Anand Rai)</string>
     <string name="retrieving_data_wait_a_few_seconds">Retrieving data. Wait a few seconds</string>
+    <string name="download">Download</string>
+    <string name="product">Product</string>
+    <string name="pricing">Pricing</string>
 </resources>
