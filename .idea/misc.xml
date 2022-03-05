@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.1485" />
         <entry key="app/src/main/res/drawable/ic_menu_icon.xml" value="0.1485" />
+        <entry key="app/src/main/res/layout/layout_recycler_view_item.xml" value="0.25052083333333336" />
+        <entry key="app/src/main/res/layout/layout_view_pager_item.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/layout/main_activity.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/layout/main_fragment.xml" value="0.23645833333333333" />
       </map>
