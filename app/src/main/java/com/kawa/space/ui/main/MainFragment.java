@@ -19,13 +19,11 @@ import java.util.ArrayList;
 
 public class MainFragment extends Fragment implements RecyclerViewAdapter.onCallBack {
 
-    private MainViewModel mViewModel;
-
-    private MainFragmentBinding mBinding;
     ViewPagerAdapter customPagerAdapter;
     RecyclerViewAdapter recyclerViewAdapter;
-
     ArrayList<ResultsItem> userArrayList = new ArrayList<>();
+    private MainViewModel mViewModel;
+    private MainFragmentBinding mBinding;
 
     public static MainFragment newInstance() {
         return new MainFragment();
