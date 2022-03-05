@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#FF063961</color>
+    <color name="colorPrimaryVariant">#FF063961</color>
+    <color name="colorSecondary">#FFE16259</color>
+    <color name="colorSecondaryVariant">#FFE16259</color>
+    <color name="colorWindowBackground">#FFE5E5E5</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple">#A259FF</color>
+    <color name="gray">#A59D9D</color>
 </resources>

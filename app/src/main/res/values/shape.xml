@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerRadius">300dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Card.CornerSize20Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+        <item name="cornerRadius">300dp</item>
+
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Card.CornerSize30Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30%</item>
+        <item name="cornerRadius">10dp</item>
+
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Card.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="backgroundColor">@color/black</item>
+        <item name="android:solidColor">@color/colorPrimary</item>
+    </style>
+</resources>

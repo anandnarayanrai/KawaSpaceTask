@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Text.Regular" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+    </style>
+
+    <style name="Widget.Text.Label" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Widget.Text.SubLabel" parent="Widget.Text.Label">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/dimen_5dp</item>
+        <item name="cardCornerRadius">@dimen/dimen_10dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:shadowColor">?attr/backgroundColor</item>
+        <item name="cardBackgroundColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.App.ShapeableImageView_Circle" parent="Widget.MaterialComponents.ShapeableImageView">
+        <item name="shapeAppearance">?attr/shapeAppearanceSmallComponent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.Card.Circle</item>
+        <item name="android:shadowColor">?attr/backgroundColor</item>
+        <item name="elevation">@dimen/dimen_10dp</item>
+    </style>
+
+    <style name="Theme.Cryothai.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="titleTextStyle">@style/Widget.Text.Regular</item>
+        <item name="titleTextColor">?attr/colorOnSecondary</item>
+        <item name="itemIconTint">?attr/colorOnSecondary</item>
+        <item name="colorControlNormal">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextStyle">@style/Widget.Text.Regular</item>
+        <item name="titleTextColor">?attr/colorOnSecondary</item>
+        <item name="backgroundColor">?attr/colorOnPrimary</item>
+        <item name="elevation">0dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+        <item name="colorControlNormal">?attr/colorOnSecondary</item>
+        <item name="android:actionMenuTextColor">?attr/colorOnSecondary</item>
+    </style>
+
+</resources>
